@@ -1,0 +1,25 @@
+{
+  "name": "api-typechecker",
+  "version": "1.0.0",
+  "description": "typechecker for api reqs/resps",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "rollup -c",
+	"dev": "concurrently \"tsc --watch\" \"nodemon ./dist/index.js\""	
+  },
+  "keywords": [
+    "api"
+  ],
+  "author": "r",
+  "license": "ISC",
+  "dependencies": {
+    "@types/jest": "^29.5.13",
+    "concurrently": "^9.0.1",
+    "jest": "^29.7.0",
+    "nodemon": "^3.1.7",
+    "rollup": "^4.24.0",
+    "rollup-plugin-typescript2": "^0.36.0",
+    "ts-jest": "^29.2.5",
+    "typescript": "^5.6.2"
+  }
+}
