@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "typechecker for api reqs/resps",
   "main": "dist/index.js",
+  "type": "module",
   "scripts": {
     "build": "rollup -c",
 	"dev": "concurrently \"tsc --watch\" \"nodemon ./dist/index.js\""	
